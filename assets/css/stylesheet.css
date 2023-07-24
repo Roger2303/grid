@@ -40,7 +40,7 @@ main {
 
 footer {
     grid-area: footer;
-    background-color: black;
+    background-image: url(../imgs/istockphoto-963448782-612x612.jpg);
     height: 4vw;
     color: white;
 }
@@ -70,5 +70,25 @@ footer {
     justify-content: space-between;
     margin-right: 12px;
     padding: 5px;
-    font-size: 15px;
+}
+
+.características {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 0px;
+    border: 0px;
+}
+
+.elementos {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 0px;
+}
+
+.comprar {
+    width: 60px;
+    height: 20px;
 }
