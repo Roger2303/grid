@@ -51,3 +51,24 @@ footer {
 .titulo {
     padding: 17px;
 }
+
+.pie {
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    font-size: 25px;
+}
+
+.catálogo {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.submenus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 12px;
+    padding: 5px;
+    font-size: 15px;
+}
