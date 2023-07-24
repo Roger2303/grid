@@ -6,9 +6,6 @@
     "footer footer footer";
 }
 
-.grid-item {
-    
-}
 
 header {
     grid-area: header;
@@ -27,6 +24,9 @@ menu {
     background-color: black;
     margin-top: 0;
     margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    color: white;
 }
 
 main {
@@ -59,11 +59,7 @@ footer {
     font-size: 25px;
 }
 
-.catálogo {
-    display: flex;
-    flex-direction: column;
-    color: white;
-}
+
 .submenus {
     display: flex;
     flex-direction: row;
