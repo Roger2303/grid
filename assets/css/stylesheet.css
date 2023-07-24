@@ -73,7 +73,7 @@ footer {
     flex-direction: column;
     color: white;
     margin-top: 0px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     padding: 0px;
     border: 0px;
 }
@@ -87,4 +87,11 @@ footer {
 .comprar {
     width: 60px;
     height: 20px;
+}
+.h3 {
+    background-color: black;
+    width: 80px;
+    padding: 0px;
+    margin left: 0px;
+    margin-top: 0px;
 }
